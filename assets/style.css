@@ -51,6 +51,15 @@ body{
     border-color: #30393f;
     font-size: 1.5rem;
 }
+.dark{
+    background-color: #30393f;
+}
+
+.light{
+    color:white;
+}
+
+
 
 .btn:hover, .btn-primary:hover{
     color: #fff;
@@ -79,6 +88,7 @@ h1{
     border-bottom-style: solid !important;
     border-bottom-color: rgb(222, 226, 230) !important;
 }
+
 #copyright{
     background-color: #585454d4;
     color: white;
