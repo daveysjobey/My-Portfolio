@@ -1,0 +1,114 @@
+body{
+    background-color: #90c1db;
+}
+.navbar{
+    padding:0rem 1rem;
+    border-bottom: #90c1db solid 3px;
+    background-color:#585454d4;
+    
+    
+}
+.far{
+    color:#ffffff;
+}
+
+
+
+.navbar-light .navbar-brand {
+    color:black;
+    padding:.5rem 2rem;
+    margin:0px 30px;
+    font-size: 1.5rem;
+    font-family: serif;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+}
+
+.navbar-brand:hover{
+    color: #ffffff;
+    background-color: #585454d4;
+}
+
+.navbar-nav{
+    margin: 0px 30px;
+   
+}
+#Tagline{
+    font-weight: bold;
+    margin: .5rem 0rem;
+}
+.container{
+    margin-top: 3rem;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+.btn, .btn-primary {
+    background-color: #90c1db;
+    border-color: #585454d4;
+    font-size: 1.5rem;
+}
+
+.btn:hover, .btn-primary:hover{
+    color: #fff;
+    background-color: #90c1dba8;
+    border-color: #585454d4;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #90c1dba8;
+    border-color: #585454d4;
+}
+h1{
+    
+   margin: 0rem,1rem;
+    ;
+}
+
+.card{
+    margin: 1rem;
+}
+
+.border-bottom {
+    border-bottom: 3px solid #dee2e6!important;
+    border-bottom-width: 3px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: rgb(222, 226, 230) !important;
+}
+#copyright{
+    background-color: #90c1dba8;
+    opacity: 60%; 
+    padding: 0pt;
+    margin: 0pt;
+    width: 100% !important;   
+    
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+ }
