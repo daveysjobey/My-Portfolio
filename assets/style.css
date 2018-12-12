@@ -1,9 +1,9 @@
 body{
-    background-color: #90c1db;
+    background-color: #c6cddc;
 }
 .navbar{
     padding:0rem 1rem;
-    border-bottom: #90c1db solid 3px;
+    border-bottom: #30393f solid 3px;
     background-color:#585454d4;
     
     
@@ -30,7 +30,7 @@ body{
 
 .navbar-brand:hover{
     color: #ffffff;
-    background-color: #585454d4;
+    background-color: #c6cddc;
 }
 
 .navbar-nav{
@@ -47,21 +47,21 @@ body{
     padding: 2rem;
 }
 .btn, .btn-primary {
-    background-color: #90c1db;
-    border-color: #585454d4;
+    background-color: #585454d4;
+    border-color: #30393f;
     font-size: 1.5rem;
 }
 
 .btn:hover, .btn-primary:hover{
     color: #fff;
-    background-color: #90c1dba8;
-    border-color: #585454d4;
+    background-color: #30393f;
+    border-color: #30393f;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #90c1dba8;
-    border-color: #585454d4;
+    background-color: #585454d4;
+    border-color: #30393f;
 }
 h1{
     
@@ -80,12 +80,19 @@ h1{
     border-bottom-color: rgb(222, 226, 230) !important;
 }
 #copyright{
-    background-color: #90c1dba8;
+    background-color: #585454d4;
+    color: white;
     opacity: 60%; 
     padding: 0pt;
     margin: 0pt;
     width: 100% !important;   
     
+}
+.card-deck{
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
