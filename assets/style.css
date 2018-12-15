@@ -105,6 +105,9 @@ h1{
     margin-left: -15px;
 }
 
+.LI-profile-badge{
+ padding: 2%;
+}
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
