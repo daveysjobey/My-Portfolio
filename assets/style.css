@@ -82,6 +82,18 @@ h1{
     margin: 1rem;
 }
 
+.card-header{
+    background-color: #585454d4
+}
+.projlink{
+    font-size: 1.5rem
+}
+
+.img-max{
+    width: 100%;
+    max-width: 400px;
+}
+
 .border-bottom {
     border-bottom: 3px solid #dee2e6!important;
     border-bottom-width: 3px !important;
@@ -98,12 +110,7 @@ h1{
     width: 100% !important;   
     
 }
-.card-deck{
-    display: flex;
-    flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
+
 
 .LI-profile-badge{
  padding: 2%;

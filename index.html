@@ -111,99 +111,159 @@
         <br>
         <br>
     </div>
-    <div class="container rounded dark">
+    <div class="container rounded">
         <div class="row">
-            <div class="col-sm-12 border-bottom light">
+            <div class="col-sm-12 border-bottom ">
                 <h1> Projects </h1>
             </div>
         </div>
 
         <br>
 
-        <div class="row">
-            <div class="card-deck">
-                
-                <div class="col-xs-12 mx-auto">
-                    <div class="card" style="width: 16rem;">
-                        <img class="card-img-top border-bottom drk-line" src="assets/images/Screen Shot 2018-12-14 at 10.32.26 PM.png"
-                            alt="Music Project">
-                            <h4 class="card-title text-center border-bottom">#Musicproject</h4>
-                        <div class="card-body">
-                            <h5 class="card-text">My first Dev group project. I handled the project management and
-                                working with the Bandsintown API.</h5>
-                            <br>
-                            <a href="https://simonehong.github.io/musicproject/" class="btn-sm btn-primary btn-block text-center">Visit
-                                Site</a>
-                            <a href=" https://daveysjobey.github.io/TrainScheduler/" class="btn-sm btn-primary btn-block text-center">View
-                                on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-xs-12 mx-auto">
-                    <div class="card" style="width: 16rem;">
-                        <img class="card-img-top border-bottom drk-line" src="assets/images/Screen Shot 2018-12-14 at 10.32.39 PM.png"
-                            alt="Halloween Trivia">
-                            <h4 class="card-title text-center border-bottom">Halloween Trivia</h4>
-                        <div class="card-body">
-                            <h5 class="card-text">A project that focused on DOM manpulation through Javascript and timers.</h5>
-                            <br>
-                            <a href="https://daveysjobey.github.io/TriviaGame/" class="btn-sm btn-primary btn-block text-center">Visit
-                                Site</a>
-                            <a href=" https://daveysjobey.github.io/TrainScheduler/" class="btn-sm btn-primary btn-block text-center">View
-                                on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-               
-                <div class="col-xs-12 mx-auto">
-                    <div class="card" style="width: 16rem;">
-                        <img class="card-img-top border-bottom drk-line" src="assets/images/Screen Shot 2018-12-14 at 10.32.50 PM.png"
-                            alt="Crystal Collector">
-                            <h4 class="card-title text-center border-bottom">The Crystal Collector</h4>
-                        <div class="card-body">
-                            <h5 class="card-text">A game that uses logic to ranndomly generate gameboards.</h5>
-                            <br>
-                            <a href="https://daveysjobey.github.io/unit-4-game/" class="btn-sm btn-primary btn-block text-center">Visit
-                                Site</a>
-                            <a href=" https://daveysjobey.github.io/TrainScheduler/" class="btn-sm btn-primary btn-block text-center">View
-                                on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-xs-12 mx-auto">
-                    <div class="card" style="width: 16rem;">
-                        <img class="card-img-top border-bottom drk-line" src="assets/images/Screen Shot 2018-12-14 at 10.30.21 PM.png" alt="Food Gifs">
-                        <h4 class="card-title text-center border-bottom">GiphMeSomeLove</h4>
-                        <div class="card-body">
-                                
-                            <h5 class="card-text">Object creation through Javascript and intro to API usage.</h5>
-                            <br>
-                            <a href="https://daveysjobey.github.io/Giphmesomelove/" class="btn-sm btn-primary btn-block text-center">Visit
-                                Site</a>
-                            <a href=" https://daveysjobey.github.io/TrainScheduler/" class="btn-sm btn-primary btn-block text-center">View
-                                on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-               
-                <div class="col-xs-12 mx-auto">
-                    <div class="card" style="width: 16rem;">
-                        <img class="card-img-top border-bottom drk-line" src="assets/images/Screen Shot 2018-12-14 at 10.30.38 PM.png" alt="Train Scheduler">
-                        <h4 class="card-title text-center border-bottom">Train Scheduler</h4>
-                        <div class="card-body">
-                            
-                            <h5 class="card-text">A moment heavy project that also uses firebase to store user input.</h5>
-                            <br>
-                            <a href=" https://daveysjobey.github.io/TrainScheduler/" class="btn-sm btn-primary btn-block text-center">Visit
-                                Site</a>
-                            <a href=" https://daveysjobey.github.io/TrainScheduler/" class="btn-sm btn-primary btn-block text-center">View
-                                on GitHub</a>
-                        </div>
-                    </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header text-center rounded" id="headingOne">
+                    <h2 class="mb-0"></h2>
+                    <button class="btn-sm btn-primary btn-block text-center" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        #Musicproject
+                    </button>
+                    </h2>
                 </div>
 
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body dark rounded">
+                        <img class="img-max mx-auto d-block rounded" src="assets/images/Screen Shot 2018-12-14 at 10.32.26 PM.png"
+                            alt="Music Project">
+                        <br>
+                        <h5 class="card-text text-center light">My first DU Coding Bootcamp group project. I handled
+                            the project management and
+                            working with the Bandsintown API.</h5>
+                        <div class="text-center">
+                            <a href="https://simonehong.github.io/musicproject/" class="light projlink">Visit
+                                Site</a>
+                            <br>
+                            <a href="https://github.com/daveysjobey/musicproject" class=" light projlink">View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header text-center rounded" id="headingTwo">
+                    <h2 class="mb-0"></h2>
+                    <button class="btn-sm btn-primary btn-block text-center" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        Halloween Tivia
+                    </button>
+                    </h2>
+                </div>
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body dark rounded">
+                        <img class="img-max mx-auto d-block rounded" src="assets/images/Screen Shot 2018-12-14 at 10.32.39 PM.png"
+                            alt="Halloween Trivia">
+                        <br>
+                        <h5 class="card-text text-center light">A project that focused on DOM manpulation through
+                            Javascript and timers.</h5>
+                        <div class="text-center">
+                            <a href="https://daveysjobey.github.io/TriviaGame/" class="light projlink">Visit
+                                Site</a>
+                            <br>
+                            <a href="https://github.com/daveysjobey/TriviaGame" class=" light projlink">View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header text-center rounded" id="headingThree">
+                    <h2 class="mb-0"></h2>
+                    <button class="btn-sm btn-primary btn-block text-center" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        The Crystal Collector
+                    </button>
+                    </h2>
+                </div>
+
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body dark rounded">
+                        <img class="img-max mx-auto d-block rounded" src="assets/images/Screen Shot 2018-12-14 at 10.32.50 PM.png"
+                            alt="Collector Game">
+                        <br>
+                        <h5 class="card-text text-center light">A game that uses logic to ranndomly generate
+                            gameboards.</h5>
+                        <div class="text-center">
+                            <a href="https://daveysjobey.github.io/unit-4-game/" class="light projlink">Visit
+                                Site</a>
+                            <br>
+                            <a href=" https://github.com/daveysjobey/unit-4-game" class=" light projlink">View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header text-center rounded" id="headingFour">
+                    <h2 class="mb-0"></h2>
+                    <button class="btn-sm btn-primary btn-block text-center" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        GiphMeSomeLove
+                    </button>
+                    </h2>
+                </div>
+
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body dark rounded">
+                        <img class="img-max mx-auto d-block rounded" src="assets/images/Screen Shot 2018-12-14 at 10.30.21 PM.png"
+                            alt="Gif Food">
+                        <br>
+                        <h5 class="card-text text-center light">Object creation through Javascript and intro to API
+                            usage.</h5>
+                        <div class="text-center">
+                            <a href="https://daveysjobey.github.io/Giphmesomelove/" class="light projlink">Visit
+                                Site</a>
+                            <br>
+                            <a href=" https://github.com/daveysjobey/Giphmesomelove" class=" light projlink">View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header text-center rounded" id="headingFive">
+                    <h2 class="mb-0"></h2>
+                    <button class="btn-sm btn-primary btn-block text-center" type="button" data-toggle="collapse"
+                        data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        Train Scheduler
+                    </button>
+                    </h2>
+                </div>
+
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body dark rounded">
+                        <img class="img-max mx-auto d-block rounded" src="assets/images/Screen Shot 2018-12-14 at 10.30.38 PM.png"
+                            alt="Train Scheduler">
+                        <br>
+                        <h5 class="card-text text-center light">A moment heavy project that also uses firebase to store
+                            user input.</h5>
+                        <div class="text-center">
+                            <a href="https://daveysjobey.github.io/TrainScheduler/" class="light projlink">Visit
+                                Site</a>
+                            <br>
+                            <a href=" https://github.com/daveysjobey/TrainScheduler" class=" light projlink">View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <br>
@@ -233,11 +293,8 @@
                 <h4>Email:</h4>
                 <h4> davidito16@gmail.com</h4>
                 <br>
-                <h4>Phone:</h4>
-                <h4> 715-410-0191</h4>
-                <br>
                 <h4>Resume:</h4>
-                <h4><a href="https://drive.google.com/file/d/1TfF01sQkbNxUxWExuKCkHGiPeol-kGi3/view?usp=sharing">Link
+                <h4><a href="https://drive.google.com/file/d/1YkDKfYe8C4TCjYyeqoxoYJStkY_Dwtat/view?usp=sharing">Link
                         to Resume</a></h4>
             </div>
         </div>
